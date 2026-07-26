@@ -1,7 +1,30 @@
 aid: dvlp-medicines
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dvlp-medicines.png
 name: Dvlp Medicines
-description: Dvlp Medicines is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  DVLP Medicines is a drug-development software company building an end-to-end,
+  configurable platform that moves molecules from discovery to commercialization
+  with speed. The platform pairs a single data repository for pharmaceutical
+  assets with specialized AI agents for pharma operations, document automation,
+  knowledge synthesis, and decision support for portfolio management. It is
+  positioned as a software co-pilot for drug development and a marketplace
+  connecting project leaders with investors and outsourced R&D and manufacturing
+  vendors, targeting underserved therapeutic markets such as new antibiotics for
+  antimicrobial resistance and rare-disease therapies. DVLP Medicines is a
+  portfolio company of DCVC (Computational Bio & Chem), first funded in 2022.
+  It was added to the API Evangelist network as a company profile; the company
+  publishes a marketing site but no public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/dvlp-medicines/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Drug Development
+- Pharmaceutical
+- Biotech
+- AI Agents
+- Life Sciences
+- Healthcare
+- Research and Development
 apis: []
+common:
+- type: Website
+  url: https://dvlpmedicines.com/
+- type: Company
+  url: https://www.dcvc.com/companies/dvlp-medicines
+- type: X
+  url: https://twitter.com/DvlpMedicines
+- type: LinkedIn
+  url: https://www.linkedin.com/company/dvlpmedicines/
+- type: Support
+  url: mailto:hello@dvlpmedicines.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
